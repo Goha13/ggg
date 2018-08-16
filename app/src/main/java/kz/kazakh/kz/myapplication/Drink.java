@@ -9,9 +9,9 @@ public class Drink {
     private String description;
     private int imageResourceId;
     public static final Drink[] drinks={
-            new Drink("Latte","A couple 1",R.drawable.latte),
-            new Drink("Latte","A couple 2",R.drawable.cappuchino),
-            new Drink("Latte","A couple 3",R.drawable.expresso)
+            new Drink("Latte","A couple 1",R.drawable.cappuchino),
+            new Drink("Cappuchino","A couple 2",R.drawable.cappuchino),
+            new Drink("Expresso","A couple 3",R.drawable.expresso)
     };
 
     private Drink(String name,String description,int imageResourceId){

@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WatchActivity">
+        <activity android:name=".TopLevelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".ReceiveMessageActivity" />
         <activity android:name=".CreateMessageActivity" />
-        <activity android:name=".TopLevelActivity"></activity>
+        <activity android:name=".WatchActivity" />
+        <activity android:name=".DrinkCategoryActivity" />
+        <activity android:name=".DrinkActivity"></activity>
     </application>
 
 </manifest>
